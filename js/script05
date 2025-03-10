@@ -1,0 +1,22 @@
+let quant = 0;
+let qdt = 1;
+
+function viewCart() {
+    console.log('Cart quantity: ' + quant);
+}
+        
+function addCart(qtd) {
+    quant += qtd;
+    console.log('Cart quantity: ' + quant);
+}
+
+function removeCart(qtd) {
+    quant -= qtd;
+    console.log('Cart quantity: ' + quant);
+}
+
+function resetCart() {
+    quant = 0;
+    console.log('Cart reset');
+    console.log('Cart quantity: ' + quant);
+}
