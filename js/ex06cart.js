@@ -25,6 +25,7 @@ function removeCart(qtd) {
         if (quant < 0) {
             quant += qtd;
             console.log('Not enough items to remove.')
+            return;
         } else {
             console.log('Cart quantity: ' + quant);
         }
