@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnAmazon {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 40px;
+    width: 150px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btnGeral {
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.req {
+    background-color: #000;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.schedule {
+    background-color: rgb(230, 230, 230);
+}
+
+.is-toggled {
+    background-color: rgb(230, 230, 230);
+    
+}
+
+.not-toggled {
+    background-color: #000;
+    color: #fff;
+}
