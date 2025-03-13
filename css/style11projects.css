@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add {
+    border: none;
+    background-color: #008000;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 90px;
+}
+
+.delete {
+    border: none;
+    background-color: #800000;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 90px;
+}
+
+.input {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    margin: 10px;
+}
+
+.listArray3 {
+    margin-top: 10px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 10px;
+}
